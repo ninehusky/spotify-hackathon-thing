@@ -12,7 +12,7 @@ SPOTIFY_URL_TOKEN = "https://accounts.spotify.com/api/token"
 RESPONSE_TYPE = "code"
 SCOPE = "streaming"  # change this to whatever is required
 CLIENT_ID = "1615209a464c4661b5fb11029a5d7b5b"
-CLIENT_SECRET = "6bc9717897a8400f98c624d8e31139d1"
+CLIENT_SECRET = 4  # secret goes here
 
 
 def authQuery(redirect_uri):
